@@ -1,0 +1,441 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #FAFAFA;
+}
+
+.home-masthead {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 60vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(90, 90, 90, 0.63)), to(rgba(43, 43, 43, 0.63))), url("/img/full-equiped-medical-cabinet.jpg");
+  background-image: linear-gradient(180deg, rgba(118, 51, 155, 0), rgba(0, 0, 0, 0.28)), url("/img/full-equiped-medical-cabinet.jpg");
+  background-position: 0 0, 50% 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+  color: #0b191f;
+}
+
+#logo {
+  width: 200px;
+}
+
+.banner {
+  text-align: left;
+  background-color: transparent;
+  position: absolute;
+}
+
+.titulo-banner {
+  font-size: 4vw;
+  color: #fafafa;
+  text-align: left;
+}
+
+.banner-inner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.navbar-light .navbar-brand {
+  color: #FAFAFA;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #FAFAFA;
+}
+
+.nav-link:hover {
+  color: #10ADDB !important;
+}
+
+.nav-dent {
+  transition: 0.3s ease-in-out;
+  padding-top: 15px;
+}
+
+.nav-active {
+  background-color: #fff;
+  box-shadow: 5px -1px 12px -5px grey;
+  padding: 0 0 0 0;
+}
+
+.nav-link-active {
+  color: #62489d !important;
+}
+.nav-link-active:hover {
+  color: #10ADDB !important;
+}
+
+.section-style {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 4vw;
+}
+.section-style:nth-child(odd) {
+  background: #62489d;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.section-style:nth-child(even) {
+  background: #10ADDB;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.subtitulos-h3 {
+  font-size: 30px;
+  font-weight: 700 !important;
+  color: #FAFAFA !important;
+  width: auto;
+}
+
+.inner-subtitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.white-row {
+  margin-top: -70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.imagenes-contactame {
+  max-width: 100px;
+}
+
+.texto-gris {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+}
+
+.texto-morado {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  color: #62489d;
+}
+
+.texto-blanco {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  color: #FAFAFA;
+  max-width: 70%;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+.boton-cita {
+  background-color: #62489d;
+  border: transparent;
+  border-style: solid;
+  color: #FAFAFA;
+  height: 40px;
+  max-width: 200px;
+  transition: all 0.2s ease-in-out;
+  font-weight: 600;
+}
+.boton-cita:hover {
+  background-color: #10ADDB;
+}
+
+.subtitulos-h4 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 17px;
+  color: #62489d;
+}
+
+.columnas-contactame {
+  padding-left: 30px;
+  padding-right: 30px;
+  background: #FAFAFA;
+  max-width: 25%;
+  padding-bottom: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin-bottom: 10px;
+  position: relative;
+  top: 110px;
+  min-width: 250px;
+}
+.columnas-contactame:hover {
+  box-shadow: 0 20px 28px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.22);
+  transform: scale(1.05);
+}
+.columnas-contactame a {
+  color: #62489d;
+  text-underline-offset: 5px;
+  font-weight: 500;
+  opacity: 1;
+}
+.columnas-contactame a:hover {
+  color: #10ADDB;
+  text-underline-offset: 5px;
+  opacity: 0.7;
+  transition: all 0.2s ease-in-out;
+}
+
+.lista-servicios {
+  columns: 2;
+}
+.lista-servicios li {
+  color: #FAFAFA;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.center-items {
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+  color: #FAFAFA;
+}
+
+.navbar-right {
+  justify-content: end;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #ff66cb;
+}
+
+.divider {
+  border-bottom: none;
+  background-color: none;
+  height: 1px;
+  margin: 0.5em 0em 0.5em;
+}
+.divider span {
+  display: block;
+  height: 2px;
+  background-color: #10ADDB;
+}
+
+.span1 {
+  background-color: #FAFAFA !important;
+}
+
+.recuadro {
+  padding: 20px 20px;
+  -o-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.5);
+  background-color: #62489d;
+}
+
+.right {
+  float: right;
+  text-align: end;
+}
+
+.margin-row {
+  margin-top: 40px;
+  justify-content: space-evenly;
+}
+
+.gallery {
+  display: flex;
+  padding: 2px;
+  transition: 0.3s;
+}
+.gallery:hover .gallery__image {
+  filter: grayscale(1);
+}
+
+.gallery__column {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.gallery__link {
+  margin: 2px;
+  overflow: hidden;
+}
+.gallery__link:hover .gallery__image {
+  filter: grayscale(0);
+}
+.gallery__link:hover .gallery__caption {
+  opacity: 1;
+}
+
+.gallery__thumb {
+  position: relative;
+}
+
+.gallery__image {
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+}
+.gallery__image:hover {
+  transform: scale(1.1);
+}
+
+.gallery__caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px 15px 15px;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: white;
+  opacity: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  transition: 0.3s;
+}
+
+.footer-icons-margin {
+  margin: 0 !important;
+  padding-left: 0 !important;
+}
+
+.footer-items {
+  align-items: center;
+}
+
+.footer-div {
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#clip {
+  overflow: hidden;
+  clip-path: polygon(0 18%, 100% 18%, 100% 100%, 0% 100%);
+}
+
+.footer-title {
+  width: auto;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #cccccc;
+}
+
+.footer-style {
+  border-top-style: solid;
+  border-top-color: #10ADDB;
+  padding: 20px 0px 20px 0px;
+  justify-content: space-evenly;
+  background-color: #212125;
+}
+
+.footer-font {
+  color: #cccccc;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.no-list {
+  list-style: none;
+}
+
+.flex-column {
+  flex-direction: inherit !important;
+}
+
+@media (max-width: 991px) {
+  .inner-subtitle {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .footer-div {
+    align-items: center;
+  }
+
+  .flex-column {
+    flex-direction: column !important;
+  }
+
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .right {
+    float: none !important;
+    text-align: center !important;
+  }
+
+  .margen-abajo {
+    margin-bottom: 100px;
+  }
+
+  .subtitulos-h3 {
+    margin-top: 10px;
+  }
+
+  .texto-blanco {
+    max-width: 100%;
+    font-size: 17px;
+  }
+
+  .columnas-contactame {
+    max-width: 90%;
+    top: 0;
+  }
+
+  .inner-subtitle {
+    margin-top: 10px !important;
+  }
+
+  .titulo-banner {
+    font-size: 6vw;
+  }
+
+  #navbarSupportedContent {
+    text-align: center;
+  }
+
+  .lista-servicios {
+    columns: 1;
+    margin-bottom: 0;
+  }
+  .lista-servicios li {
+    font-size: 19px;
+  }
+
+  .banner {
+    top: 45%;
+    left: 15%;
+  }
+
+  .margin-row {
+    margin-top: 0px !important;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */

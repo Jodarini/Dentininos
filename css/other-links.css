@@ -1,0 +1,149 @@
+.section-style-alt {
+  margin-top: 77.9px;
+}
+
+h4 {
+  text-align: start;
+  font-weight: bold;
+}
+
+ol {
+  text-align: start;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.small-font {
+  font-size: 15px;
+}
+
+.left-align {
+  text-align: start;
+}
+
+.max-width {
+  max-width: 100%;
+}
+
+.alternative-logo {
+  display: block !important;
+}
+
+.subtitulos-h2-alt {
+  font-size: xxx-large;
+}
+
+.columnas-contactame-alt {
+  min-height: 150px;
+  justify-content: space-around;
+}
+
+.iconos-alt {
+  color: #10ADDB;
+  font-size: 40px;
+  position: absolute;
+  right: 42%;
+  top: -30px;
+}
+
+.col-con-alt {
+  max-width: 250px;
+}
+
+.left {
+  float: left;
+  text-align: left !important;
+  align-items: flex-start;
+}
+
+.texto-blanco-alt {
+  max-width: 100%;
+}
+
+#horario2 {
+  color: #FAFAFA;
+}
+
+.texto-table-2 {
+  color: #FAFAFA;
+}
+
+.th-alt {
+  border-bottom-color: #FAFAFA !important;
+}
+
+.contenedor-blanco-alt {
+  min-height: 150px !important;
+  margin-top: 25px;
+}
+
+.no-margin {
+  margin: 0 !important;
+  margin-right: 0 !important;
+}
+
+.icon-follow {
+  margin-right: 0 !important;
+  font-size: 40px;
+  color: #4D4D4D;
+  transition: all 0.2s ease-in-out !important;
+}
+.icon-follow:hover {
+  color: #10ADDB;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.tarjetas-alt {
+  flex-direction: column;
+  align-items: center;
+}
+
+.vl {
+  border-left: 6px solid #62489d;
+  height: 20px;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+  margin-bottom: 8px;
+}
+
+.no-list-alt {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.toast-2 {
+  width: 200px;
+  height: 20px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  bottom: 10px;
+  background-color: #383838;
+  color: #F0F0F0;
+  font-family: Calibri;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 24px -1px #383838;
+  -moz-box-shadow: 0px 0px 24px -1px #383838;
+  box-shadow: 0px 0px 24px -1px #383838;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .contenedor-blanco-alt {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .visit-us {
+    flex-direction: column;
+    align-content: center;
+  }
+}
+
+/*# sourceMappingURL=other-links.css.map */
