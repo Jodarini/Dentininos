@@ -7,8 +7,8 @@
 			<nav class="navbar navbar-expand-xl fixed-top navbar-light nav-dent">
 				<div class="container container-fluid">
 					<a class="navbar-brand" href="/"
-						><img loading="lazy" id="logo-blanco" src="img/Logo-Dentininos-Blanco.png" alt="Logo" />
-						<img loading="lazy" id="logo-color" src="img/logo.png" alt="Logo dentiniños color" />
+						><img id="logo-blanco" src="img/Logo-Dentininos-Blanco.png" alt="Logo" />
+						<img id="logo-color" src="img/logo.png" alt="Logo dentiniños color" />
 					</a>
 
 					<button
@@ -30,12 +30,12 @@
 								<a class="nav-link" href="/contactanos">Contáctanos</a>
 							</li>
 							<li class="nav-item d-flex center-items">
-								<a class="nav-link" target="_blank" href="https://www.instagram.com/dentininos.cali/">
+								<a class="nav-link" target="_blank" aria-label="Ir a instagram.com/dentininos.cali" href="https://www.instagram.com/dentininos.cali/">
 									<i class="bi bi-instagram"></i>
 								</a>
 							</li>
 							<li class="nav-item d-flex center-items">
-								<a class="nav-link" href="https://g.page/Dentininos?share">
+								<a class="nav-link" aria-label="Ir a google maps - dentiniños"  href="https://g.page/Dentininos?share">
 									<i class="bi bi-geo-alt-fill"></i>
 								</a>
 							</li>
@@ -65,7 +65,7 @@
 		<section class="section-style">
 			<div class="container">
 				<div data-aos="zoom-in" class="row inner-subtitle d-flex align-items-center">
-					<h2 class="subtitulos-h2">Contacta nuestros <span style="color: #10addb">especialistas</span></h2>
+					<h2 class="subtitulos-h2">Contacta nuestros especialistas</h2>
 					<div class="divider"><span></span></div>
 					<p data-aos="fade-up" class="texto-blanco margen-abajo">
 						En dentiniños nos preocupamos por la salud oral de toda tu familia, por eso, tenemos un especialista para todos los miembros
@@ -160,7 +160,7 @@
 			<div class="container">
 				<div data-aos="fade-right" data-aos-offset="-20" class="row d-flex margin-row">
 					<div class="col-lg-6 inner-subtitle d-flex right">
-						<h2 class="subtitulos-h2 right">Nuestros servicios</h2>
+						<h3 class="subtitulos-h2 right">Nuestros servicios</h3>
 						<div class="divider" style="width: 100%"><span class="span1"></span></div>
 						<p class="texto-blanco right">
 							En dentiniños creemos en entregar los mejores y más cualificados servicios dentales para toda la familia.
@@ -197,7 +197,7 @@
 							<thead>
 								<tr>
 									<th colspan="2">
-										<h2 class="subtitulos-h2" id="horario">Horario de atención</h2>
+										<h4 class="subtitulos-h2" id="horario">Horario de atención</h4>
 									</th>
 								</tr>
 							</thead>
@@ -238,7 +238,7 @@
 		</section>
 
 		<section class="home-masthead" id="gallery-section" style="height: auto; padding: 5%">
-			<h4 class="titulo-banner" style="font-style: oblique; background-color: #504ea1; z-index: 1">Nuestras sonrisas</h4>
+			<h5 class="titulo-banner" style="font-style: oblique; background-color: #504ea1; z-index: 1">Nuestras sonrisas</h5>
 
 			<div class="row gallery">
 				<div class="col-md-3 gallery__column">

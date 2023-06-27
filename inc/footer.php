@@ -23,10 +23,10 @@
 								</li>
 								<li class="no-list">
 									<div class="d-flex">
-										<a class="nav-link footer-items footer-icons-margin" href="https://www.instagram.com/dentininos.cali/">
+										<a class="nav-link footer-items footer-icons-margin" aria-label="Ir a instagram.com/dentininos.cali" href="https://www.instagram.com/dentininos.cali/">
 											<i class="bi bi-instagram"></i>
 										</a>
-										<a class="nav-link footer-items footer-icons-margin" href="https://www.facebook.com/dentininos.cali/">
+										<a class="nav-link footer-items footer-icons-margin" aria-label="Ir a facebook.com/dentininos.cali" href="https://www.facebook.com/dentininos.cali/">
 											<i class="bi bi-facebook"></i>
 										</a>
 									</div>
@@ -42,6 +42,7 @@
 							style="border: 0; width: 100%"
 							allowfullscreen=""
 							loading="lazy"
+							title="Dentiniños google map"
 						></iframe>
 					</div>
 
@@ -49,7 +50,7 @@
 					<div class="d-flex col justify-content-center align-items-center" style="text-align: center">
 						<ul id="ul-logo">
 							<li class="no-list">
-								<a class="footer-items footer-icons-margin" href="/"
+								<a class="footer-items footer-icons-margin" aria-label="Home" href="/"
 									><img loading="lazy" id="logo" src="/img/logo.png" style="width: 160px" alt="Logo"
 								/></a>
 							</li>
